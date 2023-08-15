@@ -1,5 +1,9 @@
 {
-  "name": "front",
+  "name": "online-cinema",
+  "author":{
+    "email": "abv.khallid@mail.ru",
+    "name" : "Khalid Abaev"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +16,7 @@
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "@types/tailwindcss": "^3.1.0",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
@@ -19,7 +24,12 @@
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sass": "^1.65.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "prettier": "^3.0.1"
   }
 }
