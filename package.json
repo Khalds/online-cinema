@@ -1,8 +1,8 @@
 {
   "name": "online-cinema",
-  "author":{
+  "author": {
     "email": "abv.khallid@mail.ru",
-    "name" : "Khalid Abaev"
+    "name": "Khalid Abaev"
   },
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "prettier": "^3.0.1"
   }
 }
